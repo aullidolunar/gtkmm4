@@ -1,0 +1,35 @@
+using Gtk 4.0;
+
+ApplicationWindow window1 {
+  Box {
+    orientation: horizontal;
+    hexpand: true;
+    spacing: 10;
+    margin-start: 10;
+    margin-top: 10;
+    margin-end: 10;
+    margin-bottom: 10;
+    Label {
+      label: _("Gtkmm4 hard-coded application demo");
+    }
+    Button {
+      clicked => $gtk_window_destroy(window1) swapped;
+      Box {
+  	    orientation: horizontal;
+  	    spacing: 5;
+  	    Image {
+  		    icon-name: 'myclose';
+  	    }
+  	    Label {
+  		    label: _('_Quit');
+  		    use-underline: true;
+  	    }
+      }
+    }  
+  }
+}
+
+/*
+ https://gnome-team.pages.debian.net/blueprint-compiler/index.html
+ https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html
+*/
