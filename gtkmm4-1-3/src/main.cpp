@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
   bind_textdomain_codeset(PROGRAM_NAME, "UTF-8");
   textdomain(PROGRAM_NAME);
   auto app = Gtk::Application::create(PROGRAM_ID);
-  app->signal_activate().connect([app](){
+  app->signal_activate().connect([&app](){
     on_app_activate(app);
   });
   return app->run(argc, argv);

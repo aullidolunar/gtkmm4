@@ -7,7 +7,7 @@
 # i18n:
 # meson compile -C _build gtkmm4-update-po
 
-project('gtkmm4', 'cpp', version: '1.3.0.0', default_options: ['cpp_std=c++17', 'warning_level=3'])
+project('gtkmm4', 'cpp', version: '1.3.0.1', default_options: ['cpp_std=c++17', 'warning_level=3'])
 
 IS_WIN = (build_machine.system() == 'windows') ? true : false
 

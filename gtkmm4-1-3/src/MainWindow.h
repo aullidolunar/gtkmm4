@@ -4,6 +4,6 @@
 #include <gtkmm/application.h>
 #include <glibmm/i18n.h>
 
-void on_app_activate(Glib::RefPtr<Gtk::Application>);
+void on_app_activate(Glib::RefPtr<Gtk::Application>&);
 
 #endif

@@ -7,7 +7,7 @@
 #include <gtkmm/builder.h>
 #include <memory>
 
-void on_app_activate(Glib::RefPtr<Gtk::Application> app) {
+void on_app_activate(Glib::RefPtr<Gtk::Application>& app) {
 
   auto icon_theme = Gtk::IconTheme::get_for_display(Gdk::Display::get_default());
   icon_theme->add_resource_path(PROGRAM_RC_PATH);
@@ -20,10 +20,9 @@ void on_app_activate(Glib::RefPtr<Gtk::Application> app) {
   window1->set_title(PROGRAM_TITLE);
   window1->set_default_icon_name(PROGRAM_NAME);
   
-  window1->signal_close_request().connect([window1]() -> bool {
+  app->signal_shutdown().connect([window1](){
 	  delete window1;
-	  return false;
-  }, false);
+  });
   
   window1->present();
 }
