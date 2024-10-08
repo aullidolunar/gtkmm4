@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gtkmm4 1.4.0.0\n"
+"Report-Msgid-Bugs-To: \"aullidolunar@gmail.com\"\n"
+"POT-Creation-Date: 2024-10-06 20:55-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: aullidolunar <aullidolunar@gmail.com>\n"
+"Language-Team: aullidolunar\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: src/main.cpp:27
+msgid "has started"
+msgstr "ha iniciado"
+
+#: src/MainWindow.cpp:47
+msgid "This is your text"
+msgstr "Este es tu texto"
+
+#: src/MainWindow.cpp:58
+msgid "has close"
+msgstr "ha cerrado"
+
+#: _build/data/gtkmm4.desktop.in:4
+msgid "gtkmm4"
+msgstr "programa gtkmm4"
+
+#: _build/data/gtkmm4.desktop.in:5
+msgid "Gtkmm4 hard-coded application demo"
+msgstr "Demo de una aplicación escrita a mano en gtkmm4"
+
+#: _build/data/builder.glade:21
+msgid "Your platform icon"
+msgstr "El ícono de tu plataforma"
+
+#: _build/data/builder.glade:32
+msgid "Write some text"
+msgstr "Escribe algo de texto"
+
+#: _build/data/builder.glade:42
+msgid "Write something nice"
+msgstr "Escribe algo lindo"
+
+#: _build/data/builder.glade:52
+msgid "Show your text in a message dialog"
+msgstr "Muestra tu texto en un cuadro de diálogo"
+
+#: _build/data/builder.glade:64
+msgid "_Show"
+msgstr "_Mostrar"
+
+#: _build/data/builder.glade:78
+msgid "Exit the window"
+msgstr "Salir de la ventana"
+
+#: _build/data/builder.glade:90
+msgid "_Close"
+msgstr "_Cerrar"
+
+#: _build/data/builder.glade:104
+msgid "Show Gtk about dialog"
+msgstr "Muestra el diálogo GtkAbout"

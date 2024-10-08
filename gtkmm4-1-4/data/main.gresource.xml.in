@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+	<gresource prefix="@PROGRAM_RC_PATH@">
+		<file alias="/icons/64x64/apps/@PROGRAM_NAME@.png">linux-icon-64.png</file>
+		<file>@GLADE_FILE@</file>
+		<file alias="myclose.png">close_24.png</file>
+		<file alias="myenter.png">blue_enter_24.png</file>
+		<file alias="platform.png">platform_64.png</file>
+	</gresource>
+</gresources>

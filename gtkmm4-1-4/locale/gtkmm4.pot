@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gtkmm4 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gtkmm4 \"1.4.0.0\"\n"
+"Report-Msgid-Bugs-To: \"aullidolunar@gmail.com\"\n"
+"POT-Creation-Date: 2024-10-06 20:55-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.cpp:27
+msgid "has started"
+msgstr ""
+
+#: src/MainWindow.cpp:47
+msgid "This is your text"
+msgstr ""
+
+#: src/MainWindow.cpp:58
+msgid "has close"
+msgstr ""
+
+#: _build/data/gtkmm4.desktop.in:4
+msgid "gtkmm4"
+msgstr ""
+
+#: _build/data/gtkmm4.desktop.in:5
+msgid "Gtkmm4 hard-coded application demo"
+msgstr ""
+
+#: _build/data/builder.glade:21
+msgid "Your platform icon"
+msgstr ""
+
+#: _build/data/builder.glade:32
+msgid "Write some text"
+msgstr ""
+
+#: _build/data/builder.glade:42
+msgid "Write something nice"
+msgstr ""
+
+#: _build/data/builder.glade:52
+msgid "Show your text in a message dialog"
+msgstr ""
+
+#: _build/data/builder.glade:64
+msgid "_Show"
+msgstr ""
+
+#: _build/data/builder.glade:78
+msgid "Exit the window"
+msgstr ""
+
+#: _build/data/builder.glade:90
+msgid "_Close"
+msgstr ""
+
+#: _build/data/builder.glade:104
+msgid "Show Gtk about dialog"
+msgstr ""
