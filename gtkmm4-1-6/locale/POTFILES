@@ -1,0 +1,4 @@
+src/main.cpp
+src/MainWindow.cpp
+_build/data/gtkmm4.desktop.in
+_build/data/builder.glade

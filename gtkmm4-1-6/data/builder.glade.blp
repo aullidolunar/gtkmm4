@@ -1,0 +1,89 @@
+using Gtk 4.0;
+
+ApplicationWindow window1 {
+  Grid {
+    row-spacing: 10;
+		column-spacing: 10;
+		margin-start: 10;
+		margin-end: 10;
+		margin-bottom: 10;
+		margin-top: 10;
+    
+    Image {
+			icon-name: 'platform';
+			tooltip-text: _('Your platform icon');
+			pixel-size: 64;
+			layout {
+				column: 0;
+        row: 0;
+				row-span: 2;
+			}
+		}
+    Label {
+      label:_('Write some text');
+      layout {
+				column: 1;
+        row: 0;
+			}
+    }
+    Entry entry1 {
+			hexpand: true;
+			tooltip-text: _("Write something nice");
+			sensitive: bind check1.active inverted;
+			layout {
+				column: 2;
+        row: 0;
+			}
+		}
+    Button button1 {
+			tooltip-text: _("Show your text in a message dialog");
+			Box {
+				orientation: horizontal;
+				spacing: 5;
+				Image {
+					icon-name: 'myenter';
+				}
+				Label {
+					label: _('_Show');
+					use-underline: true;
+				}
+			}
+			layout {
+				column: 3;
+        row: 0;
+			}
+		}
+    Button button2 {
+			tooltip-text: _("Exit the window");
+			Box {
+				orientation: horizontal;
+				spacing: 5;
+				Image {
+					icon-name: 'myclose';
+				}
+				Label {
+					label: _('_Close');
+					use-underline: true;
+				}
+			}
+			layout {
+				column: 4;
+        row: 0;
+			}
+		}
+    CheckButton check1 {
+			label: _('Show Gtk about dialog');
+			layout {
+				column: 1;
+        row: 1;
+				column-span: 2;
+			}
+		}
+
+  }
+}
+
+/*
+ https://gnome-team.pages.debian.net/blueprint-compiler/index.html
+ https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html
+*/

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=@PROGRAM_NAME@
+Comment=@PROGRAM_DESC@
+Exec=@PROGRAM_NAME@
+Icon=@PROGRAM_ICON@
+Terminal=false
+Type=Application
+Categories=Utility; 
