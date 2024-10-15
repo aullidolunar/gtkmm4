@@ -1,0 +1,8 @@
+# src
+
+sources = files('main.cpp', 'MainWindow.cpp', 'MyButton.cpp')
+
+foreach src: sources
+  I18N_SOURCES += FS.relative_to(src, meson.project_source_root())
+  PROGRAM_SOURCES += src
+endforeach
