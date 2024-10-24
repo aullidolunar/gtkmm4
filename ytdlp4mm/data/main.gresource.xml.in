@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+	<gresource prefix="@PROGRAM_RC_PATH@">
+		<file alias="/icons/64x64/apps/@PROGRAM_NAME@.png">yt64.png</file>
+		<file alias="/icons/48x48/apps/@PROGRAM_NAME@.png">yt48.png</file>
+		<file alias="/icons/32x32/apps/@PROGRAM_NAME@.png">yt32.png</file>
+		<file alias="/icons/24x24/apps/@PROGRAM_NAME@.png">yt24.png</file>
+		<file alias="/icons/22x22/apps/@PROGRAM_NAME@.png">yt22.png</file>
+		<file alias="/icons/16x16/apps/@PROGRAM_NAME@.png">yt16.png</file>
+    <file alias="myok.png">ok_22.png</file>
+    <file alias="myclose.png">close_22.png</file>
+    <file alias="info.png">info.png</file>
+    <file alias="question.png">question.png</file>
+	</gresource>
+</gresources>

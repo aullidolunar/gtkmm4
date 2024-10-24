@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gtkmm4 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gtkmm4 \"1.7.0.0\"\n"
+"Report-Msgid-Bugs-To: \"aullidolunar@gmail.com\"\n"
+"POT-Creation-Date: 2024-10-09 10:50-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/MainWindow.cpp:27
+msgid "Your platform icon"
+msgstr ""
+
+#: src/MainWindow.cpp:30
+msgid "Write something to show:"
+msgstr ""
+
+#: src/MainWindow.cpp:34
+msgid "_OK"
+msgstr ""
+
+#: src/MainWindow.cpp:35
+msgid "Show me some dialog with information"
+msgstr ""
+
+#: src/MainWindow.cpp:37
+msgid "_Close"
+msgstr ""
+
+#: src/MainWindow.cpp:38
+msgid "Exit the application"
+msgstr ""
+
+#: src/MainWindow.cpp:40
+msgid "_Show GtkAboutDialog"
+msgstr ""
+
+#: src/MainWindow.cpp:84
+msgid "This is your text"
+msgstr ""
+
+#: _build/data/gtkmm4.desktop.in:4
+msgid "gtkmm4"
+msgstr ""
+
+#: _build/data/gtkmm4.desktop.in:5
+msgid "Gtkmm4 hard-coded application demo"
+msgstr ""

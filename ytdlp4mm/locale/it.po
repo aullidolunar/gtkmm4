@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gtkmm4 1.2.0.0\n"
+"Report-Msgid-Bugs-To: \"aullidolunar@gmail.com\"\n"
+"POT-Creation-Date: 2024-10-23 21:39-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: aullidolunar\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: src/MainWindow.cpp:42
+msgid "_Add"
+msgstr ""
+
+#: src/MainWindow.cpp:43
+msgid "_Edit"
+msgstr ""
+
+#: src/MainWindow.cpp:44
+msgid "_Remove"
+msgstr ""
+
+#: src/MainWindow.cpp:46 src/MainWindow.cpp:256
+msgid "_Close"
+msgstr ""
+
+#: src/MainWindow.cpp:48
+msgid "_List"
+msgstr ""
+
+#: src/MainWindow.cpp:60
+msgid "Jman"
+msgstr ""
+
+#: src/MainWindow.cpp:65 src/MainWindow.cpp:218
+msgid "Title"
+msgstr ""
+
+#: src/MainWindow.cpp:71 src/MainWindow.cpp:220
+msgid "Author"
+msgstr ""
+
+#: src/MainWindow.cpp:77 src/MainWindow.cpp:222
+msgid "Link"
+msgstr ""
+
+#: src/MainWindow.cpp:97
+msgid "Exiting the application"
+msgstr ""
+
+#: src/MainWindow.cpp:97
+msgid "There are items on list. Do you wish to continue exit the application?"
+msgstr ""
+
+#: src/MainWindow.cpp:111
+msgid "Sender: "
+msgstr ""
+
+#: src/MainWindow.cpp:113
+msgid "No arguments"
+msgstr ""
+
+#: src/MainWindow.cpp:139
+msgid "Information"
+msgstr ""
+
+#: src/MainWindow.cpp:139
+msgid "No items are selected"
+msgstr ""
+
+#: src/MainWindow.cpp:201
+msgid "Add"
+msgstr ""
+
+#: src/MainWindow.cpp:201
+msgid "Edit"
+msgstr ""
+
+#: src/MainWindow.cpp:201
+msgid "item"
+msgstr ""
+
+#: src/MainWindow.cpp:211
+msgid "Item information"
+msgstr ""
+
+#: src/MainWindow.cpp:224
+msgid "For jMan"
+msgstr ""
+
+#: src/MainWindow.cpp:233 src/MainWindow.cpp:343
+msgid "_OK"
+msgstr ""
+
+#: src/MainWindow.cpp:370
+msgid "_Cancel"
+msgstr ""
+
+#: build/data/ytdlp4mm.desktop.in:4
+msgid "ytdlp4mm"
+msgstr ""
+
+#: build/data/ytdlp4mm.desktop.in:5
+msgid "Front-end for yt-dlp application"
+msgstr ""
+
+#~ msgid "gtkmm4"
+#~ msgstr "gtkmm4"
+
+#~ msgid "Gtkmm4 hard-coded application demo"
+#~ msgstr "Dimostrazione dell'applicazione Gtkmm4 codificata in modo rigido"
+
+#~ msgid "_Quit"
+#~ msgstr "_Esci"

@@ -1,0 +1,2 @@
+option('USE_CAIRO', type: 'boolean', value: true)
+option('USE_GTK_CSD', type: 'integer', min: 0, max: 1, value: 1)
