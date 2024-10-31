@@ -1,0 +1,197 @@
+using Gtk 4.0;
+// using Gio 2.0;
+
+menu menu1 {
+  submenu {
+    label: _("_List");
+    item (_("_Open"), "win.open")
+    item (_("_Save"), "win.save")
+    submenu {
+      label: _("Actions");
+      item (_("_Add"), "win.add")
+      item (_("_Edit"), "win.edit")
+      section {
+        item (_("_Remove"), "win.remove")
+        item (_("_Clear"), "win.clear")
+      }
+    }
+    section {
+      item (_("E_xit"), "app.exit")
+    }
+  }
+}
+
+ColumnView columnview {
+  model: SingleSelection singselmodel {};
+  ColumnViewColumn {
+    title: _("For jMan");
+    factory: SignalListItemFactory col_jman_factory {};
+  }
+  ColumnViewColumn {
+    title: _("Title");
+    factory: SignalListItemFactory col_title_factory {};
+  }
+  ColumnViewColumn {
+    title: _("Author");
+    factory: SignalListItemFactory col_author_factory {};
+  }
+  ColumnViewColumn {
+    title: _("Link");
+    expand: true;
+    factory: SignalListItemFactory col_link_factory {};
+  }
+}
+
+Window ItemEditorDlg {
+  transient-for: toplevel;
+  destroy-with-parent: true;
+  hide-on-close: true;
+  modal: true;
+  child: Box {
+    orientation: vertical;
+    spacing: 10;
+    margin-bottom: 10;
+    Grid grid2 {
+      column-spacing: 10;
+      row-spacing: 10;
+      margin-start: 10;
+      margin-end: 10;
+      margin-top: 10;
+      margin-bottom: 10;
+      Image {
+        icon-name: "ytdlp4mm";
+        pixel-size: 64;
+        layout {
+          column: 0;
+          row: 0;
+          row-span: 4;
+        }
+      }
+      Label {
+        label: _("Title");
+        xalign: 1.0;
+        layout {
+          column: 1;
+          row: 0;
+        }
+      }
+      Entry entry_title {
+        layout {
+          column: 2;
+          row: 0;
+          column-span: 2;
+        }
+      }
+      Label {
+        label: _("Author");
+        xalign: 1.0;
+        layout {
+          column: 1;
+          row: 1;
+        }
+      }
+      Entry entry_author {
+        layout {
+          column: 2;
+          row: 1;
+          column-span: 2;
+        }
+      }
+      Label {
+        label: _("Link");
+        xalign: 1.0;
+        layout {
+          column: 1;
+          row: 2;
+        }
+      }
+      Entry entry_link {
+        layout {
+          column: 2;
+          row: 2;
+          column-span: 2;
+        }
+      }
+      Label {
+        label: "jMan";
+        xalign: 1.0;
+        layout {
+          column: 1;
+          row: 3;
+        }
+      }
+      Switch switch_jman {
+        layout {
+          column: 2;
+          row: 3;
+        }
+      }
+      Box {
+        hexpand: true;
+        layout {
+          column: 3;
+          row: 3;
+        }
+      }
+    }
+    Separator {
+      orientation: horizontal;
+    }
+    Box {
+      spacing: 10;
+      orientation: horizontal;
+      margin-end: 10;
+      Box {
+        orientation: horizontal;
+        hexpand: true;
+      }
+      Button editor_ok {
+        child: Box {
+          spacing: 5;
+          Image {
+            icon-name: "myok";
+          }
+          Label {
+            label: _("_OK");
+            use-underline: true;
+          }
+        };
+      }
+      Button editor_close {
+        child: Box {
+          spacing: 5;
+          Image {
+            icon-name: "myclose";
+          }
+          Label {
+            label: _("_Close");
+            use-underline: true;
+          }
+        };
+      }
+    }
+  };
+}
+
+ApplicationWindow toplevel {
+  Grid grid1 {
+    PopoverMenuBar {
+      menu-model: menu1;
+      layout {
+        column: 0;
+        row: 0;
+      }
+    }
+    ScrolledWindow {
+      child: columnview;
+      hexpand: true;
+      vexpand: true;
+      layout {
+        column: 0;
+        row: 1;
+      }
+    }
+  }
+  
+  child: grid1;
+}

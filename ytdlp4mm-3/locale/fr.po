@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gtkmm4 1.2.0.0\n"
+"Report-Msgid-Bugs-To: \"aullidolunar@gmail.com\"\n"
+"POT-Creation-Date: 2024-10-31 06:14-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: aullidolunar\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: src/MainWindow.cpp:179
+msgid "JSON files"
+msgstr ""
+
+#: src/ItemEditorDlg.cpp:32
+msgid "Add"
+msgstr ""
+
+#: src/ItemEditorDlg.cpp:32
+msgid "Edit"
+msgstr ""
+
+#: src/ItemEditorDlg.cpp:32
+msgid "item"
+msgstr ""
+
+#: src/MyListStore.cpp:47 src/MyListStore.cpp:58 src/MyListStore.cpp:69
+#: src/MyListStore.cpp:80
+msgid "was updated."
+msgstr ""
+
+#: src/MyListStore.cpp:50 src/MyListStore.cpp:61 src/MyListStore.cpp:72
+#: src/MyListStore.cpp:83
+msgid "was skipped."
+msgstr ""
+
+#: src/MyListStore.cpp:55
+msgid "title"
+msgstr ""
+
+#: src/MyListStore.cpp:66
+msgid "author"
+msgstr ""
+
+#: src/MyListStore.cpp:77
+msgid "link"
+msgstr ""
+
+#: build/data/ytdlp4mm.desktop.in:4
+msgid "ytdlp4mm"
+msgstr ""
+
+#: build/data/ytdlp4mm.desktop.in:5
+msgid "Front-end for yt-dlp application"
+msgstr ""
+
+#: build/data/builder.glade:11
+msgid "_List"
+msgstr ""
+
+#: build/data/builder.glade:13
+msgid "_Open"
+msgstr ""
+
+#: build/data/builder.glade:17
+msgid "_Save"
+msgstr ""
+
+#: build/data/builder.glade:21
+msgid "Actions"
+msgstr ""
+
+#: build/data/builder.glade:23
+msgid "_Add"
+msgstr ""
+
+#: build/data/builder.glade:27
+msgid "_Edit"
+msgstr ""
+
+#: build/data/builder.glade:32
+msgid "_Remove"
+msgstr ""
+
+#: build/data/builder.glade:36
+msgid "_Clear"
+msgstr ""
+
+#: build/data/builder.glade:43
+msgid "E_xit"
+msgstr ""
+
+#: build/data/builder.glade:55
+msgid "For jMan"
+msgstr ""
+
+#: build/data/builder.glade:63 build/data/builder.glade:118
+msgid "Title"
+msgstr ""
+
+#: build/data/builder.glade:71 build/data/builder.glade:137
+msgid "Author"
+msgstr ""
+
+#: build/data/builder.glade:79 build/data/builder.glade:156
+msgid "Link"
+msgstr ""
+
+#: build/data/builder.glade:230
+msgid "_OK"
+msgstr ""
+
+#: build/data/builder.glade:250
+msgid "_Close"
+msgstr ""
+
+#~ msgid "gtkmm4"
+#~ msgstr "gtkmm4"
+
+#~ msgid "Gtkmm4 hard-coded application demo"
+#~ msgstr "Démonstration de l'application Gtkmm4 codée en dur"
+
+#~ msgid "_Quit"
+#~ msgstr "_Quitter"
